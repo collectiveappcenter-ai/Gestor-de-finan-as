@@ -1,0 +1,36 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="64" height="64" rx="12" fill="url(#bgGradient)"/>
+  
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="dropletGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Modern droplet icon representing money flow -->
+  <g transform="translate(12, 8)">
+    <!-- Main large droplet -->
+    <path d="M20 6C20 6 10 16 10 24C10 30.6274 15.3726 36 22 36C28.6274 36 34 30.6274 34 24C34 16 20 6 20 6Z" 
+          fill="url(#dropletGradient)" opacity="0.95"/>
+    
+    <!-- Small droplet top right -->}
+    <path d="M32 10C32 10 27 15 27 18.5C27 21.5376 29.4624 24 32.5 24C35.5376 24 38 21.5376 38 18.5C38 15 32 10 32 10Z" 
+          fill="#60A5FA" opacity="0.85"/>
+    
+    <!-- Small droplet bottom left -->}
+    <path d="M8 26C8 26 4 30 4 32.5C4 34.9853 6.01472 37 8.5 37C10.9853 37 13 34.9853 13 32.5C13 30 8 26 8 26Z" 
+          fill="#93C5FD" opacity="0.75"/>
+    
+    <!-- Dollar sign in center of main droplet -->}
+    <g transform="translate(18, 18)">
+      <path d="M4 0V2M4 10V12M2 3H5C5.55228 3 6 3.44772 6 4C6 4.55228 5.55228 5 5 5H3C2.44772 5 2 5.44772 2 6V7C2 7.55228 2.44772 8 3 8H5C5.55228 8 6 8.44772 6 9C6 9.55228 5.55228 10 5 10H2" 
+            stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+    </g>
+  </g>
+</svg>
